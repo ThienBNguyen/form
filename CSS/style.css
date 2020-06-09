@@ -86,25 +86,23 @@ background: linear-gradient(80deg, rgba(0,254,255,1) 5%, rgba(9,58,121,0.6362920
 .account a{
     text-decoration: none;
     color: black;
-}
-@media only screen and (max-width: 600px) {
+}@media only screen and (max-width: 1600px) {
     .container {
-    width: 100%;
-    background-color: white;
+    width: 30%;
     }
-  }
-@media only screen and (max-width: 900px) {
+  }  @media only screen and (max-width: 1024px) {
+    .container {
+    width: 70%;
+    }
+  }@media only screen and (max-width: 900px) {
     .container {
     width: 60%;
     }
   }
-  @media only screen and (max-width: 1000px) {
+
+  
+@media only screen and (max-width: 800px) {
     .container {
-    width: 55%;
-    }
-  }
-  @media only screen and (max-width: 1600px) {
-    .container {
-    width: 30%;
+    width: 100%;
     }
   }
